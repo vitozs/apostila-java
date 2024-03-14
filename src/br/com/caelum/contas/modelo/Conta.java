@@ -107,5 +107,7 @@ public class Conta implements Comparable<Conta> {
         return this.titular.compareTo(outraConta.titular);
     }
 
-    //public abstract String getTipo();
+    public String getTipo() {
+        return "Conta";
+    }
 }
